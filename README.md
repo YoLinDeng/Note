@@ -123,7 +123,7 @@ width和height的属性值可以为不同单位的数值或相对于父元素的
 
     .clearfix:before,.clearfix:after { 
       content:"";
-      display:table;  /* 这句话可以出发BFC BFC可以清除浮动,BFC我们后面讲 */
+      display:table;  /* 这句话可以出发BFC BFC可以清除浮动 */
     }
     .clearfix:after {
      clear:both;
